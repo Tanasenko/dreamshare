@@ -1,0 +1,52 @@
+.hello {
+  display: flex;
+  flex-direction: column;
+  background: url("../../img/hello.jpg") center no-repeat;
+  background-size: cover;
+  margin-bottom: 95px;
+}
+
+.hello__content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 233px;
+  align-items: center;
+  max-width: 510px;
+}
+
+.hello__title {
+  font-family: "Montserrat";
+  font-size: 52px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hello__text {
+  font-family: "Roboto";
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .hello {
+    margin-bottom: 37px;
+  }
+
+  .hello__content {
+    margin-bottom: 140px;
+  }
+
+  .hello__title {
+    font-size: 30px;
+    margin-bottom: 19px;
+  }
+
+  .hello__text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}

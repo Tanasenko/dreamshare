@@ -1,0 +1,86 @@
+.steps__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+  width: 100%;
+}
+
+.step__item {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 21px 14px 19px;
+  width: 33%;
+  height: 400px;
+  justify-content: flex-end;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.step__item--1 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../../img/steps/1-2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.step__item--2 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../../img/steps/2-2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.step__item--3 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../../img/steps/3-3.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.step__point {
+  font-size: 10px;
+  background-color: #ff4e50;
+  width: 70px;
+  height: 20px;
+  padding: 6px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 17px;
+  margin-left: 3px;
+}
+
+.step__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 17px;
+}
+
+.step__text {
+  font-family: "Roboto";
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .steps__list {
+    flex-direction: column;
+    margin-bottom: 38px;
+  }
+
+  .step__item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
